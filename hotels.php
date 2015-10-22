@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Sedona Hotels</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic" type='text/css'>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class="container">
+<?php include 'header.php'; ?>
             <header class="main-header-hotels">
                 <div class="logo">
                     <img class="logo__image" src="img/logo.png" width="138" height="70" alt="logo">
@@ -195,23 +186,25 @@
                     </div>
                 </div>
             </div>
-            <footer class="main-footer row row--inline text-center">
-                <div class="col s-2">
-                    <a class="hashtag" href="#">#visitsedona</a>
-                </div>
-
-                <div class="col s-2">
-                    <div class="social">
-                        <a class="social-item icon-twitter" href="#"></a>
-                        <a class="social-item icon-facebook" href="#"></a>
-                        <a class="social-item icon-youtube" href="#"></a>
+            <footer class="main-footer main-footer row row--inline text-center">
+                    <div class="col s-2">
+                        <a class="hashtag" href="#">#visitsedona</a>
                     </div>
-                </div>
 
-                <div class="col s-2">
-                    <div class="made-by">website by <a class="made-by__link" href="#"></a></div>
-                </div>
-        </footer>
+                    <div class="col s-2">
+                        <div class="social">
+                            <a class="social-item icon-twitter" href="#"></a>
+                            <a class="social-item icon-facebook" href="#"></a>
+                            <a class="social-item icon-youtube" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="col s-2">
+                        <div class="made-by">website by <a class="made-by__link" href="#"><img src="img/logo_html.png" class="made-by__image" alt=""></a></div>
+                    </div>
+                </footer>
+            </div>
+        </div>
         </div>
 
         <script src="js/jquery-2.1.4.js"></script>

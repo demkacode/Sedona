@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Sedona — Index</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic" type='text/css'>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-
-        <div class="container">
+<?php include 'header.php'; ?>
             <header class="main-header">
                 <div class="logo">
                     <img class="logo__image" src="img/logo.png" width="138" height="70" alt="logo">
@@ -19,7 +9,7 @@
                         <li class="main-nav__item"><a href="#" class="main-nav__link">Информация</a></li>
                         <li class="main-nav__item main-nav__item--offset"><a href="#" class="main-nav__link">Фото и видео</a></li>
                         <li class="main-nav__item"><a href="#" class="main-nav__link">Карта штата</a></li>
-                        <li class="main-nav__item"><a href="hotels.html" class="main-nav__link">Гостиницы</a></li>
+                        <li class="main-nav__item"><a href="hotels.php" class="main-nav__link">Гостиницы</a></li>
                     </ul>
                 </nav>
 
@@ -162,26 +152,7 @@
                         <button type="submit" class="btn-blue btn-blue--form">Найти</button>
                     </form>
                 </div>
-
-                <footer class="main-footer main-footer--index row row--inline text-center">
-                    <div class="col s-2">
-                        <a class="hashtag" href="#">#visitsedona</a>
-                    </div>
-
-                    <div class="col s-2">
-                        <div class="social">
-                            <a class="social-item icon-twitter" href="#"></a>
-                            <a class="social-item icon-facebook" href="#"></a>
-                            <a class="social-item icon-youtube" href="#"></a>
-                        </div>
-                    </div>
-
-                    <div class="col s-2">
-                        <div class="made-by">website by <a class="made-by__link" href="#"><img src="img/logo_html.png" class="made-by__image" alt=""></a></div>
-                    </div>
-                </footer>
-            </div>
-        </div>
+                <?php include 'footer.php'; ?>
 
         <script src="js/jquery-2.1.4.js"></script>
         <script src="js/script.js"></script>
